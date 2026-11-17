@@ -4239,12 +4239,16 @@ vCarPos = (modelMatrix * vec4(transformed, 1.0)).xyz;`),e.fragmentShader=e.fragm
           float paintM = ormS.r;
           float plastic = (1.0 - paintM) * step(0.45, ormS.g);
           vec3 paintCol = uPaint * clamp(diffuseColor.rgb / 0.214, 0.0, 2.2);
-          // грязь: тонкая вуаль везде + пыль и брызги снизу (пороги, низ дверей, бамперы), пятнами
+          // грязь: вуаль по всему кузову + брызги снизу (пороги, низ дверей, бамперы) + вертикальные подтёки, пятнами.
+          // Цвет зависит от краски: на светлой машине — тёмная дорожная грязь, на тёмной — светлая пыль (иначе не видно).
           float mott = 0.55 + 0.45 * vnoise(vCarPos * 3.1) + 0.25 * vnoise(vCarPos * 11.0);
-          float low = 1.0 - smoothstep(0.12, 0.8, vCarPos.y);
-          float dustAmt = uDirt * clamp(0.05 + 0.5 * low * mott, 0.0, 0.75);
-          vec3 dust = vec3(0.30, 0.27, 0.23);
-          paintCol = mix(paintCol * mix(1.0, 0.9, uDirt), dust, dustAmt);
+          float low = 1.0 - smoothstep(0.15, 0.7, vCarPos.y);
+          float streak = smoothstep(0.45, 0.9, vnoise(vec3(vCarPos.x * 16.0, vCarPos.y * 1.2, vCarPos.z * 16.0)));
+          float paintLum = dot(uPaint, vec3(0.2126, 0.7152, 0.0722));
+          float lightPaint = smoothstep(0.04, 0.45, paintLum);
+          float dustAmt = uDirt * clamp(0.12 + 0.16 * lightPaint + (0.6 + 0.35 * lightPaint) * low * mott + 0.32 * lightPaint * streak * (1.0 - low) * mott, 0.0, 0.9);
+          vec3 dust = mix(vec3(0.30, 0.27, 0.23), vec3(0.075, 0.062, 0.045), lightPaint);
+          paintCol = mix(paintCol * mix(1.0, mix(0.9, 0.8, lightPaint), uDirt), dust, dustAmt);
           diffuseColor.rgb = mix(diffuseColor.rgb, paintCol, paintM);
           diffuseColor.rgb = mix(diffuseColor.rgb, diffuseColor.rgb * 0.8 + vec3(0.04, 0.036, 0.03), plastic * (1.0 - uInterior) * 0.6);`).replace(`#include <roughnessmap_fragment>`,`#include <roughnessmap_fragment>
           roughnessFactor = mix(roughnessFactor, mix(0.38 + 0.4 * dustAmt, 0.06, uPolish), paintM);
