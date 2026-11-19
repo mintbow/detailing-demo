@@ -13,10 +13,110 @@
   "dark": {
     "name": "Garage Black",
     "settings": {
-      "brand": { "accent": "#ff9f0a", "bg": "#000000", "theme": "dark" },
-      "scene": { "bg": "#1a1a1d" },
-      "content": { "tagline": "Детейлинг премиум-класса", "phone": "+7 900 000-00-00" }
+      "brand": {
+        "accent": "#ff9f0a",
+        "bg": "#000000",
+        "theme": "dark"
+      },
+      "scene": {
+        "bg": "#1a1a1d"
+      },
+      "content": {
+        "tagline": "Детейлинг премиум-класса",
+        "phone": "+7 900 000-00-00"
+      }
     },
-    "prices": { "Керамическое покрытие": 35000, "Восстановительная полировка": 22000 }
+    "prices": {
+      "Керамическое покрытие": 35000,
+      "Восстановительная полировка": 22000
+    }
+  },
+  "gmi-detailing": {
+    "name": "GMI Detailing",
+    "settings": {
+      "brand": {},
+      "content": {
+        "phone": "+7 912 278-59-21",
+        "address": "ул. Евгения Савкова, 45/2",
+        "tagline": "Соберите уход за машиной за минуту"
+      }
+    }
+  },
+  "pixar": {
+    "name": "Pixar Detailing",
+    "settings": {
+      "brand": {},
+      "content": {
+        "phone": "+7 995 542-53-03",
+        "address": "ул. Мира, 29А",
+        "tagline": "Соберите уход за машиной за минуту"
+      }
+    }
+  },
+  "marafet": {
+    "name": "Marafet Detailing",
+    "settings": {
+      "brand": {},
+      "content": {
+        "phone": "+7 967 639-05-71",
+        "address": "Зимняя ул., 4",
+        "tagline": "Соберите уход за машиной за минуту"
+      }
+    }
+  },
+  "msv": {
+    "name": "MSV Detailing",
+    "settings": {
+      "brand": {},
+      "content": {
+        "phone": "+7 343 333-58-38",
+        "address": "ул. Фронтовых Бригад, 15, корп. 36",
+        "tagline": "Соберите уход за машиной за минуту"
+      }
+    }
+  },
+  "optimus": {
+    "name": "Оптимус — детейлинг",
+    "settings": {
+      "brand": {},
+      "content": {
+        "phone": "+7 912 645-19-84",
+        "address": "Посадская ул., 3",
+        "tagline": "Соберите уход за машиной за минуту"
+      }
+    }
+  },
+  "kashalot": {
+    "name": "Кашалот — детейлинг",
+    "settings": {
+      "brand": {},
+      "content": {
+        "phone": "+7 922 155-06-66",
+        "address": "Лесная ул., 1, корп. 1, Верхняя Пышма",
+        "tagline": "Соберите уход за машиной за минуту"
+      }
+    }
+  },
+  "verve": {
+    "name": "Verve-detail",
+    "settings": {
+      "brand": {},
+      "content": {
+        "phone": "+7 977 213-87-36",
+        "address": "Лялинская ул., 50",
+        "tagline": "Соберите уход за машиной за минуту"
+      }
+    }
+  },
+  "luxerton": {
+    "name": "Luxertonrussia",
+    "settings": {
+      "brand": {},
+      "content": {
+        "phone": "+7 900 199-39-64",
+        "address": "Бокситовый пр., 1/3",
+        "tagline": "Соберите уход за машиной за минуту"
+      }
+    }
   }
 }
