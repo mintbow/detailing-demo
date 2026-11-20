@@ -83,7 +83,8 @@
         "phone": "+7 912 645-19-84",
         "address": "Посадская ул., 3",
         "tagline": "Соберите уход за машиной за минуту"
-      }
+      },
+      "features": { "hidePrices": true }
     }
   },
   "kashalot": {
