@@ -84,7 +84,9 @@
         "address": "Посадская ул., 3",
         "tagline": "Соберите уход за машиной за минуту"
       },
-      "features": { "hidePrices": true }
+      "features": {
+        "hidePrices": true
+      }
     }
   },
   "kashalot": {
@@ -119,5 +121,145 @@
         "tagline": "Соберите уход за машиной за минуту"
       }
     }
+  },
+  "studio1475": {
+    "name": "Студия 14.75",
+    "settings": {
+      "brand": {
+        "accent": "#ff9f0a",
+        "theme": "dark",
+        "bg": "#000000"
+      },
+      "scene": {
+        "bg": "#1a1a1d"
+      },
+      "content": {
+        "phone": "+7 950 563-00-15",
+        "address": "Ангарская ул., 41а",
+        "tagline": "Оклейка, свет, шумоизоляция — соберите за минуту",
+        "about": "Студия тюнинга и детейлинга в Екатеринбурге: оклейка, автосвет, шумоизоляция, автозвук, сигнализации, PDR."
+      },
+      "hours": {
+        "mon": [
+          "11:00",
+          "21:00"
+        ],
+        "tue": [
+          "11:00",
+          "21:00"
+        ],
+        "wed": [
+          "11:00",
+          "21:00"
+        ],
+        "thu": [
+          "11:00",
+          "21:00"
+        ],
+        "fri": [
+          "11:00",
+          "21:00"
+        ],
+        "sat": [
+          "11:00",
+          "21:00"
+        ],
+        "sun": [
+          "11:00",
+          "21:00"
+        ]
+      }
+    },
+    "services": [
+      {
+        "zone": "body",
+        "name": "Оклейка кузова полиуретаном",
+        "description": "Весь кузов в прозрачную или цветную плёнку: защита от сколов и царапин",
+        "base_price": 150000,
+        "duration_min": 2880,
+        "effect": "paint-ceramic"
+      },
+      {
+        "zone": "body",
+        "name": "Оклейка зон риска",
+        "description": "Капот, бампер, крылья, зеркала — места, куда чаще всего летят камни",
+        "base_price": 50000,
+        "duration_min": 1440,
+        "effect": "paint-ceramic"
+      },
+      {
+        "zone": "body",
+        "name": "Полировка кузова",
+        "description": "Убираем голограммы, паутинку и мелкие царапины, возвращаем глубину цвета",
+        "base_price": 18000,
+        "duration_min": 480,
+        "effect": "paint-polish",
+        "age_sensitive": 1
+      },
+      {
+        "zone": "body",
+        "name": "Керамическое покрытие",
+        "description": "Защита ЛКП, глубокий глянец, грязь держится хуже",
+        "base_price": 25000,
+        "duration_min": 360,
+        "effect": "paint-ceramic"
+      },
+      {
+        "zone": "body",
+        "name": "Удаление вмятин без покраса (PDR)",
+        "description": "Выправляем вмятину, родная краска остаётся. Цена за одну вмятину",
+        "base_price": 3000,
+        "duration_min": 60,
+        "effect": null
+      },
+      {
+        "zone": "lights",
+        "name": "Замена линз",
+        "description": "Bi-LED линзы: яркий ровный свет и чёткая граница",
+        "base_price": 25000,
+        "duration_min": 360,
+        "effect": "lights-polish"
+      },
+      {
+        "zone": "lights",
+        "name": "Улучшение света",
+        "description": "Светодиодные лампы, герметизация и восстановление фар",
+        "base_price": 8000,
+        "duration_min": 180,
+        "effect": "lights-polish"
+      },
+      {
+        "zone": "lights",
+        "name": "Бронирование фар плёнкой",
+        "description": "Полиуретан на фары от сколов и помутнения",
+        "base_price": 4500,
+        "duration_min": 60,
+        "effect": "lights-polish"
+      },
+      {
+        "zone": "interior",
+        "name": "Шумоизоляция",
+        "description": "Двери, пол, арки, багажник — в салоне тише на ходу",
+        "base_price": 45000,
+        "duration_min": 1440,
+        "effect": null
+      },
+      {
+        "zone": "interior",
+        "name": "Установка автозвука",
+        "description": "Акустика, сабвуфер, усилитель, процессор под ваш бюджет",
+        "base_price": 20000,
+        "duration_min": 480,
+        "effect": null
+      },
+      {
+        "zone": "interior",
+        "name": "Установка сигнализации",
+        "description": "Охрана, автозапуск и управление с телефона",
+        "base_price": 18000,
+        "duration_min": 240,
+        "effect": null
+      }
+    ]
   }
 }
