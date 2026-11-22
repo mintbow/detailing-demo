@@ -733,7 +733,7 @@
         "zone": "glass",
         "group": "Тонировка",
         "name": "Тонировка лобового стекла",
-        "description": "Большие внедорожники от 4 000",
+        "description": "Плёнка с допустимым светопропусканием",
         "duration_min": 90,
         "effect": null,
         "class_prices": {
@@ -755,7 +755,7 @@
         "zone": "glass",
         "group": "Тонировка",
         "name": "Тонировка двух передних стёкол",
-        "description": "Большие внедорожники от 3 000",
+        "description": "Водительское и пассажирское",
         "duration_min": 60,
         "effect": null,
         "class_prices": {
@@ -777,7 +777,7 @@
         "zone": "glass",
         "group": "Тонировка",
         "name": "Тонировка задней полусферы",
-        "description": "Универсалы от 6 000, большие внедорожники от 7 000",
+        "description": "Задние боковые и заднее стекло",
         "duration_min": 180,
         "effect": null,
         "class_prices": {
@@ -799,7 +799,7 @@
         "zone": "glass",
         "group": "Тонировка",
         "name": "Тонировка заднего стекла",
-        "description": "Большие внедорожники от 4 000",
+        "description": "",
         "duration_min": 90,
         "effect": null,
         "class_prices": {
