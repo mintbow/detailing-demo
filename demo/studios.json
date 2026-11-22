@@ -261,5 +261,38 @@
         "effect": null
       }
     ]
+  },
+  "sea": {
+    "name": "Sea Car Wash & Detailing",
+    "settings": {
+      "brand": {},
+      "content": {
+        "phone": "+7 992 023-06-44",
+        "address": "пр. Космонавтов, 108д, ТРЦ Veer Mall",
+        "tagline": "Соберите уход за машиной за минуту"
+      }
+    }
+  },
+  "craft-detail": {
+    "name": "Крафт-Детейл",
+    "settings": {
+      "brand": {},
+      "content": {
+        "phone": "+7 963 443-32-21",
+        "address": "ул. Академика Парина, 41/2",
+        "tagline": "Соберите уход за машиной за минуту"
+      }
+    }
+  },
+  "harizma": {
+    "name": "Харизма",
+    "settings": {
+      "brand": {},
+      "content": {
+        "phone": "+7 343 227-30-73",
+        "address": "ул. Азина, 22/2",
+        "tagline": "Соберите уход за машиной за минуту"
+      }
+    }
   }
 }
