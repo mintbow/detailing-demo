@@ -1587,5 +1587,343 @@
         "tagline": "Соберите уход за машиной за минуту"
       }
     }
+  },
+  "obnovi-salon": {
+    "name": "Обнови салон",
+    "settings": {
+      "brand": {},
+      "content": {
+        "phone": "+7 922 188-35-19",
+        "address": "Окружная ул., 88т",
+        "tagline": "Соберите уход за машиной за минуту",
+        "about": "Тюнинг-ателье: перетяжка салона, антихром, плёнки, свет, шумоизоляция."
+      }
+    },
+    "services": [
+      {
+        "zone": "body",
+        "group": "Антихром",
+        "name": "Антихром значков",
+        "description": "Шильдики и надписи",
+        "base_price": 6000,
+        "duration_min": 180,
+        "effect": null
+      },
+      {
+        "zone": "body",
+        "group": "Антихром",
+        "name": "Антихром накладок дверей и крыльев",
+        "description": "",
+        "base_price": 4000,
+        "duration_min": 180,
+        "effect": null
+      },
+      {
+        "zone": "body",
+        "group": "Антихром",
+        "name": "Антихром рейлингов на крыше",
+        "description": "",
+        "base_price": 13000,
+        "duration_min": 360,
+        "effect": null
+      },
+      {
+        "zone": "body",
+        "group": "Антихром",
+        "name": "Полный антихром",
+        "description": "Все хромированные элементы",
+        "base_price": 35000,
+        "duration_min": 1440,
+        "effect": null
+      },
+      {
+        "zone": "body",
+        "group": "Плёнки",
+        "name": "Оклейка крыши",
+        "description": "Глянцевая или гибридная плёнка",
+        "base_price": 14000,
+        "duration_min": 480,
+        "effect": "paint-ceramic"
+      },
+      {
+        "zone": "body",
+        "group": "Плёнки",
+        "name": "Оклейка ручек дверей",
+        "description": "",
+        "base_price": 4000,
+        "duration_min": 120,
+        "effect": null
+      },
+      {
+        "zone": "body",
+        "group": "Плёнки",
+        "name": "Оклейка кузова в глянец",
+        "description": "Все элементы кузова",
+        "base_price": 280000,
+        "duration_min": 7200,
+        "effect": "paint-ceramic"
+      },
+      {
+        "zone": "body",
+        "group": "Полировка и ремонт",
+        "name": "Полировка и керамика в 2 слоя",
+        "description": "",
+        "base_price": 30000,
+        "duration_min": 1440,
+        "effect": "paint-ceramic"
+      },
+      {
+        "zone": "body",
+        "group": "Полировка и ремонт",
+        "name": "Удаление глубоких царапин и сколов",
+        "description": "",
+        "base_price": 5000,
+        "duration_min": 180,
+        "effect": "paint-polish"
+      },
+      {
+        "zone": "body",
+        "group": "Шумоизоляция",
+        "name": "Шумоизоляция арок снаружи",
+        "description": "",
+        "base_price": 17000,
+        "duration_min": 480,
+        "effect": null
+      },
+      {
+        "zone": "body",
+        "group": "Шумоизоляция",
+        "name": "Шумоизоляция моторного щита",
+        "description": "",
+        "base_price": 40000,
+        "duration_min": 1440,
+        "effect": null
+      },
+      {
+        "zone": "lights",
+        "group": "Фары",
+        "name": "Оклейка передних фар",
+        "description": "Защитная плёнка",
+        "base_price": 7500,
+        "duration_min": 120,
+        "effect": "lights-polish"
+      },
+      {
+        "zone": "lights",
+        "group": "Фары",
+        "name": "Тонировка оптики плёнкой",
+        "description": "",
+        "base_price": 18000,
+        "duration_min": 360,
+        "effect": null
+      },
+      {
+        "zone": "lights",
+        "group": "Фары",
+        "name": "Антихром масок фар",
+        "description": "",
+        "base_price": 6000,
+        "duration_min": 360,
+        "effect": null
+      },
+      {
+        "zone": "lights",
+        "group": "Фары",
+        "name": "Замена стёкол фар",
+        "description": "",
+        "base_price": 5000,
+        "duration_min": 240,
+        "effect": "lights-polish"
+      },
+      {
+        "zone": "lights",
+        "group": "Фары",
+        "name": "Регулировка фар",
+        "description": "",
+        "base_price": 1000,
+        "duration_min": 30,
+        "effect": null
+      },
+      {
+        "zone": "lights",
+        "group": "Фары",
+        "name": "Установка светодиодных модулей",
+        "description": "Трёхчиповые LED-модули",
+        "base_price": 42000,
+        "duration_min": 720,
+        "effect": "lights-polish"
+      },
+      {
+        "zone": "interior",
+        "group": "Руль и КПП",
+        "name": "Перетяжка руля",
+        "description": "Натуральная кожа и алькантара",
+        "base_price": 9000,
+        "duration_min": 480,
+        "effect": null
+      },
+      {
+        "zone": "interior",
+        "group": "Руль и КПП",
+        "name": "Перетяжка руля алькантарой",
+        "description": "",
+        "base_price": 12000,
+        "duration_min": 480,
+        "effect": null
+      },
+      {
+        "zone": "interior",
+        "group": "Руль и КПП",
+        "name": "Перетяжка рулевой колонки кожей",
+        "description": "",
+        "base_price": 15000,
+        "duration_min": 480,
+        "effect": null
+      },
+      {
+        "zone": "interior",
+        "group": "Руль и КПП",
+        "name": "Перетяжка подушки безопасности на руле",
+        "description": "",
+        "base_price": 8000,
+        "duration_min": 360,
+        "effect": null
+      },
+      {
+        "zone": "interior",
+        "group": "Руль и КПП",
+        "name": "Перетяжка ручки и чехла КПП",
+        "description": "",
+        "base_price": 4000,
+        "duration_min": 240,
+        "effect": null
+      },
+      {
+        "zone": "interior",
+        "group": "Перетяжка салона",
+        "name": "Перетяжка дверных карт",
+        "description": "Четыре карты",
+        "base_price": 16000,
+        "duration_min": 1440,
+        "effect": null
+      },
+      {
+        "zone": "interior",
+        "group": "Перетяжка салона",
+        "name": "Перетяжка вставок на торпедо",
+        "description": "",
+        "base_price": 10000,
+        "duration_min": 720,
+        "effect": null
+      },
+      {
+        "zone": "interior",
+        "group": "Перетяжка салона",
+        "name": "Перетяжка низа торпедо экокожей",
+        "description": "",
+        "base_price": 35000,
+        "duration_min": 2880,
+        "effect": null
+      },
+      {
+        "zone": "interior",
+        "group": "Перетяжка салона",
+        "name": "Верх торпедо в натуральную кожу",
+        "description": "",
+        "base_price": 65000,
+        "duration_min": 4320,
+        "effect": null
+      },
+      {
+        "zone": "interior",
+        "group": "Перетяжка салона",
+        "name": "Перетяжка потолка",
+        "description": "",
+        "base_price": 55000,
+        "duration_min": 2880,
+        "effect": null
+      },
+      {
+        "zone": "interior",
+        "group": "Перетяжка салона",
+        "name": "Перетяжка кожухов спинок сидений",
+        "description": "Передние спинки",
+        "base_price": 12000,
+        "duration_min": 720,
+        "effect": null
+      },
+      {
+        "zone": "interior",
+        "group": "Перетяжка салона",
+        "name": "Фигурная перфорация",
+        "description": "",
+        "base_price": 21000,
+        "duration_min": 1440,
+        "effect": null
+      },
+      {
+        "zone": "interior",
+        "group": "Ремонт и покраска",
+        "name": "Реставрация кожи сиденья",
+        "description": "Водительское сиденье и подлокотник",
+        "base_price": 9000,
+        "duration_min": 720,
+        "effect": null
+      },
+      {
+        "zone": "interior",
+        "group": "Ремонт и покраска",
+        "name": "Восстановление шва",
+        "description": "",
+        "base_price": 5000,
+        "duration_min": 240,
+        "effect": null
+      },
+      {
+        "zone": "interior",
+        "group": "Ремонт и покраска",
+        "name": "Ремонт трещин пластика",
+        "description": "",
+        "base_price": 9000,
+        "duration_min": 480,
+        "effect": null
+      },
+      {
+        "zone": "interior",
+        "group": "Ремонт и покраска",
+        "name": "Покраска пластика салона",
+        "description": "Торпедо, двери, центральная консоль",
+        "base_price": 15000,
+        "duration_min": 1440,
+        "effect": null
+      },
+      {
+        "zone": "interior",
+        "group": "Комфорт",
+        "name": "Шумоизоляция салона",
+        "description": "",
+        "base_price": 85000,
+        "duration_min": 4320,
+        "effect": null
+      },
+      {
+        "zone": "interior",
+        "group": "Комфорт",
+        "name": "Звёздное небо",
+        "description": "Установка в потолок",
+        "base_price": 80000,
+        "duration_min": 2880,
+        "effect": null
+      },
+      {
+        "zone": "interior",
+        "group": "Комфорт",
+        "name": "Химчистка салона",
+        "description": "",
+        "base_price": 6000,
+        "duration_min": 360,
+        "effect": "interior-clean"
+      }
+    ]
   }
 }
