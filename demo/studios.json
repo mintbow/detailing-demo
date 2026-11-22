@@ -337,107 +337,141 @@
     "services": [
       {
         "zone": "body",
+        "group": "Мойка и подготовка",
         "name": "Комплексная подготовка к детейлингу",
-        "description": "Мойка, бережная сушка, диски и резина, влажная уборка и пылесос салона, стёкла",
+        "description": "Бережная сушка кузова, диски, резина, влажная уборка и пылесос салона, мойка стёкол",
         "duration_min": 120,
         "effect": "paint-wash",
-        "base_price": 4000,
         "class_prices": {
           "compact": 4000,
           "hatchback": 4000,
           "sedan": 4000,
           "wagon": 4000,
           "coupe": 4000,
+          "sport": 5500,
           "crossover": 5000,
-          "minivan": 5000,
-          "pickup": 5000,
           "suv": 5500,
           "offroad": 5500,
-          "sport": 5500
-        }
+          "minivan": 5000,
+          "pickup": 5000
+        },
+        "base_price": 4000
       },
       {
         "zone": "body",
+        "group": "Мойка и подготовка",
         "name": "Подготовка к детейлингу",
-        "description": "Мойка, сушка кузова, диски, резина, коврики, пылесос под коврами",
+        "description": "Бережная сушка кузова, диски, резина, ковры, пылесос под коврами, чистка педалей",
         "duration_min": 90,
         "effect": "paint-wash",
-        "base_price": 2500,
         "class_prices": {
           "compact": 2500,
           "hatchback": 2500,
           "sedan": 2500,
           "wagon": 2500,
           "coupe": 2500,
+          "sport": 4000,
           "crossover": 3500,
-          "minivan": 3500,
-          "pickup": 3500,
           "suv": 4000,
           "offroad": 4000,
-          "sport": 4000
-        }
+          "minivan": 3500,
+          "pickup": 3500
+        },
+        "base_price": 2500
       },
       {
         "zone": "body",
-        "name": "Химчистка кузова",
-        "description": "Битум, вкрапления металлов, тополь, автоскрабирование",
-        "duration_min": 150,
-        "effect": "paint-wash",
-        "base_price": 5500,
-        "class_prices": {
-          "compact": 5500,
-          "hatchback": 5500,
-          "sedan": 5500,
-          "wagon": 5500,
-          "coupe": 6000,
-          "crossover": 7500,
-          "minivan": 7500,
-          "pickup": 7500,
-          "suv": 7500,
-          "offroad": 7500,
-          "sport": 7500
-        }
-      },
-      {
-        "zone": "body",
+        "group": "Мойка и подготовка",
         "name": "Предпродажная подготовка",
-        "description": "Комплексная подготовка, багажник и химчистка подкапотного пространства",
+        "description": "Комплексная подготовка + багажник + химчистка подкапотного пространства",
         "duration_min": 360,
         "effect": "paint-wash",
-        "base_price": 10500,
         "class_prices": {
           "compact": 10000,
           "hatchback": 10500,
           "sedan": 10500,
           "wagon": 10500,
           "coupe": 11000,
+          "sport": 12000,
           "crossover": 11500,
-          "minivan": 11500,
-          "pickup": 11500,
           "suv": 12000,
           "offroad": 12000,
-          "sport": 12000
-        }
+          "minivan": 11500,
+          "pickup": 11500
+        },
+        "base_price": 10500
       },
       {
         "zone": "body",
+        "group": "Мойка и подготовка",
+        "name": "Зимний пакет",
+        "description": "Обработка резиновых уплотнителей силиконовой смазкой",
+        "duration_min": 15,
+        "effect": null,
+        "base_price": 500
+      },
+      {
+        "zone": "body",
+        "group": "Очистка кузова",
+        "name": "Химчистка кузова",
+        "description": "Битум, вкрапления тяжёлых металлов, тополь, автоскрабирование",
+        "duration_min": 150,
+        "effect": "paint-wash",
+        "class_prices": {
+          "compact": 5500,
+          "hatchback": 5500,
+          "sedan": 5500,
+          "wagon": 5500,
+          "coupe": 6000,
+          "sport": 7500,
+          "crossover": 7500,
+          "suv": 7500,
+          "offroad": 7500,
+          "minivan": 7500,
+          "pickup": 7500
+        },
+        "base_price": 5500
+      },
+      {
+        "zone": "body",
+        "group": "Очистка кузова",
+        "name": "Удаление следов битума",
+        "description": "Цена за один элемент",
+        "duration_min": 30,
+        "effect": "paint-wash",
+        "base_price": 600
+      },
+      {
+        "zone": "body",
+        "group": "Очистка кузова",
+        "name": "Удаление следов смолы деревьев",
+        "description": "Цена за один элемент",
+        "duration_min": 30,
+        "effect": "paint-wash",
+        "base_price": 700
+      },
+      {
+        "zone": "body",
+        "group": "Полировка и защитные покрытия",
         "name": "Предпродажная полировка кузова",
-        "description": "Освежаем лак и возвращаем блеск перед продажей",
+        "description": "Освежаем лак и возвращаем блеск",
         "duration_min": 480,
         "effect": "paint-polish",
         "base_price": 20000
       },
       {
         "zone": "body",
-        "name": "Восстановительная полировка элемента",
-        "description": "Убираем царапины и голограммы на одном элементе",
+        "group": "Полировка и защитные покрытия",
+        "name": "Восстановительная полировка элемента кузова",
+        "description": "Царапины и голограммы на одном элементе",
         "duration_min": 120,
         "effect": "paint-polish",
         "base_price": 3000
       },
       {
         "zone": "body",
-        "name": "Керамика с полировкой в 3 шага",
+        "group": "Полировка и защитные покрытия",
+        "name": "Керамика кузова с полировкой в 3 шага",
         "description": "Полировка и керамический состав на весь кузов",
         "duration_min": 1440,
         "effect": "paint-ceramic",
@@ -445,70 +479,115 @@
       },
       {
         "zone": "body",
+        "group": "Полировка и защитные покрытия",
         "name": "Кварцевое покрытие GYEON",
-        "description": "Быстрая защита кузова и блеск, вода скатывается",
+        "description": "Обработка кузова кварцевым составом",
         "duration_min": 60,
         "effect": "paint-ceramic",
         "base_price": 2500
       },
       {
         "zone": "body",
+        "group": "Полировка и защитные покрытия",
+        "name": "Полимерное покрытие кузова",
+        "description": "Блеск и гидрофоб",
+        "duration_min": 45,
+        "effect": "paint-polish",
+        "base_price": 1500
+      },
+      {
+        "zone": "body",
+        "group": "Плёнки и антихром",
         "name": "Оклейка всего кузова",
-        "description": "Полиуретановая антигравийная плёнка на весь кузов",
+        "description": "Полиуретановая антигравийная плёнка",
         "duration_min": 4320,
         "effect": "paint-ceramic",
         "base_price": 160000
       },
       {
         "zone": "body",
+        "group": "Плёнки и антихром",
         "name": "Оклейка зон риска",
-        "description": "Капот, часть крыши, зеркала, стойки",
+        "description": "Капот, часть крыши, зеркала, стойки — антигравийная плёнка",
         "duration_min": 1440,
         "effect": "paint-ceramic",
         "base_price": 55000
       },
       {
         "zone": "body",
-        "name": "Антихром элемента",
-        "description": "Оклейка хрома плёнкой, цена за элемент",
+        "group": "Плёнки и антихром",
+        "name": "Антихром одного элемента",
+        "description": "Оклейка хрома плёнкой",
         "duration_min": 120,
         "effect": null,
         "base_price": 4000
       },
       {
         "zone": "body",
-        "name": "Ремонт сколов",
-        "description": "Подкраска сколов, цена за элемент",
+        "group": "Плёнки и антихром",
+        "name": "Антихром рейлингов на крыше",
+        "description": "Со снятием",
+        "duration_min": 480,
+        "effect": null,
+        "base_price": 28000
+      },
+      {
+        "zone": "body",
+        "group": "Плёнки и антихром",
+        "name": "Восстановление наружного структурного пластика",
+        "description": "Цена за один элемент",
+        "duration_min": 30,
+        "effect": null,
+        "base_price": 500
+      },
+      {
+        "zone": "body",
+        "group": "Сколы и вмятины",
+        "name": "Ремонт сколов на кузове",
+        "description": "Цена за один элемент",
         "duration_min": 120,
         "effect": null,
         "base_price": 5000
       },
       {
         "zone": "body",
-        "name": "Удаление вмятин без покраски (PDR)",
-        "description": "Железо от 5 000, алюминий от 10 000. Цена за вмятину",
+        "group": "Сколы и вмятины",
+        "name": "Удаление вмятин без покраски (PDR), железо",
+        "description": "Технология PDR, родная краска сохраняется",
         "duration_min": 120,
         "effect": null,
         "base_price": 5000
       },
       {
         "zone": "body",
-        "name": "Химчистка двигателя с консервантом",
-        "description": "Мойка подкапотного пространства паром. Дизель 6 000",
+        "group": "Сколы и вмятины",
+        "name": "Удаление вмятин без покраски (PDR), алюминий",
+        "description": "Технология PDR, родная краска сохраняется",
+        "duration_min": 180,
+        "effect": null,
+        "base_price": 10000
+      },
+      {
+        "zone": "body",
+        "group": "Подкапотное пространство",
+        "name": "Химчистка двигателя с консервантом, бензин",
+        "description": "Под ответственность клиента",
         "duration_min": 90,
         "effect": null,
         "base_price": 5500
       },
       {
         "zone": "body",
-        "name": "Зимний пакет",
-        "description": "Силиконовая смазка резиновых уплотнителей",
-        "duration_min": 15,
+        "group": "Подкапотное пространство",
+        "name": "Химчистка двигателя с консервантом, дизель",
+        "description": "Под ответственность клиента",
+        "duration_min": 90,
         "effect": null,
-        "base_price": 500
+        "base_price": 6000
       },
       {
         "zone": "lights",
+        "group": "Полировка и защита",
         "name": "Полировка фар",
         "description": "Убираем мутность и желтизну",
         "duration_min": 120,
@@ -517,14 +596,97 @@
       },
       {
         "zone": "lights",
+        "group": "Полировка и защита",
+        "name": "Шлифовка фар",
+        "description": "Цена за одну фару",
+        "duration_min": 120,
+        "effect": "lights-polish",
+        "base_price": 6000
+      },
+      {
+        "zone": "lights",
+        "group": "Полировка и защита",
+        "name": "Внутренняя полировка фар",
+        "description": "Цена за одну фару",
+        "duration_min": 120,
+        "effect": "lights-polish",
+        "base_price": 3000
+      },
+      {
+        "zone": "lights",
+        "group": "Полировка и защита",
         "name": "Оклейка фар полиуретаном",
-        "description": "Защита от сколов и помутнения. Фотохром от 12 000",
+        "description": "Защита от сколов и помутнения",
         "duration_min": 90,
         "effect": "lights-polish",
         "base_price": 6000
       },
       {
         "zone": "lights",
+        "group": "Полировка и защита",
+        "name": "Оклейка фар фотохромом",
+        "description": "Плёнка, темнеющая на солнце",
+        "duration_min": 90,
+        "effect": "lights-polish",
+        "base_price": 12000
+      },
+      {
+        "zone": "lights",
+        "group": "Ремонт фар",
+        "name": "Герметизация фар",
+        "description": "Цена за одну фару",
+        "duration_min": 180,
+        "effect": "lights-polish",
+        "base_price": 6000
+      },
+      {
+        "zone": "lights",
+        "group": "Ремонт фар",
+        "name": "Ремонт трещин фары",
+        "description": "400 ₽ за сантиметр",
+        "duration_min": 30,
+        "effect": null,
+        "base_price": 400
+      },
+      {
+        "zone": "lights",
+        "group": "Ремонт фар",
+        "name": "Замена стёкол фар",
+        "description": "Цена за одну фару",
+        "duration_min": 240,
+        "effect": "lights-polish",
+        "base_price": 6000
+      },
+      {
+        "zone": "lights",
+        "group": "Ремонт фар",
+        "name": "Покрас масок / рефлекторов",
+        "description": "Цена за одну фару",
+        "duration_min": 240,
+        "effect": null,
+        "base_price": 4000
+      },
+      {
+        "zone": "lights",
+        "group": "Ремонт фар",
+        "name": "Пайка креплений",
+        "description": "Цена за одно крепление",
+        "duration_min": 60,
+        "effect": null,
+        "base_price": 1000
+      },
+      {
+        "zone": "lights",
+        "group": "Ремонт фар",
+        "name": "Снятие / установка фар",
+        "description": "",
+        "duration_min": 60,
+        "effect": null,
+        "base_price": 3000
+      },
+      {
+        "zone": "lights",
+        "group": "Свет",
         "name": "Установка / замена линз",
         "description": "Яркий ровный свет и чёткая граница",
         "duration_min": 480,
@@ -533,30 +695,34 @@
       },
       {
         "zone": "lights",
-        "name": "Герметизация фар",
-        "description": "Убираем запотевание, цена за две фары",
-        "duration_min": 240,
-        "effect": "lights-polish",
-        "base_price": 12000
+        "group": "Свет",
+        "name": "Замена ламп",
+        "description": "Цена за одну лампу",
+        "duration_min": 20,
+        "effect": null,
+        "base_price": 500
       },
       {
         "zone": "lights",
-        "name": "Внутренняя полировка фар",
-        "description": "Цена за две фары",
-        "duration_min": 180,
-        "effect": "lights-polish",
-        "base_price": 6000
+        "group": "Свет",
+        "name": "Замена блоков",
+        "description": "Цена за один блок",
+        "duration_min": 40,
+        "effect": null,
+        "base_price": 2000
       },
       {
         "zone": "lights",
+        "group": "Свет",
         "name": "Регулировка фар",
-        "description": "Настраиваем свет, чтобы не слепил встречных",
+        "description": "Чтобы свет не слепил встречных",
         "duration_min": 40,
         "effect": null,
         "base_price": 3500
       },
       {
         "zone": "lights",
+        "group": "Свет",
         "name": "Установка ПТФ",
         "description": "Противотуманные фары",
         "duration_min": 90,
@@ -565,56 +731,167 @@
       },
       {
         "zone": "glass",
+        "group": "Тонировка",
+        "name": "Тонировка лобового стекла",
+        "description": "Большие внедорожники от 4 000",
+        "duration_min": 90,
+        "effect": null,
+        "class_prices": {
+          "compact": 3500,
+          "hatchback": 3500,
+          "sedan": 3500,
+          "wagon": 3500,
+          "coupe": 3500,
+          "sport": 3500,
+          "crossover": 3500,
+          "suv": 4000,
+          "offroad": 4000,
+          "minivan": 3500,
+          "pickup": 4000
+        },
+        "base_price": 3500
+      },
+      {
+        "zone": "glass",
+        "group": "Тонировка",
         "name": "Тонировка двух передних стёкол",
-        "description": "Плёнка по ГОСТ",
+        "description": "Большие внедорожники от 3 000",
         "duration_min": 60,
         "effect": null,
-        "base_price": 2500,
         "class_prices": {
           "compact": 2500,
           "hatchback": 2500,
           "sedan": 2500,
           "wagon": 2500,
           "coupe": 2500,
+          "sport": 2500,
           "crossover": 2500,
-          "minivan": 2500,
-          "pickup": 2500,
           "suv": 3000,
           "offroad": 3000,
-          "sport": 3000
-        }
+          "minivan": 2500,
+          "pickup": 3000
+        },
+        "base_price": 2500
       },
       {
         "zone": "glass",
+        "group": "Тонировка",
         "name": "Тонировка задней полусферы",
-        "description": "Задние боковые и заднее стекло",
+        "description": "Универсалы от 6 000, большие внедорожники от 7 000",
         "duration_min": 180,
         "effect": null,
-        "base_price": 5000,
         "class_prices": {
           "compact": 5000,
           "hatchback": 5000,
           "sedan": 5000,
-          "wagon": 5000,
+          "wagon": 6000,
           "coupe": 5000,
+          "sport": 5000,
           "crossover": 5000,
-          "minivan": 5000,
-          "pickup": 5000,
           "suv": 7000,
           "offroad": 7000,
-          "sport": 7000
-        }
+          "minivan": 6000,
+          "pickup": 7000
+        },
+        "base_price": 5000
       },
       {
         "zone": "glass",
+        "group": "Тонировка",
+        "name": "Тонировка заднего стекла",
+        "description": "Большие внедорожники от 4 000",
+        "duration_min": 90,
+        "effect": null,
+        "class_prices": {
+          "compact": 3000,
+          "hatchback": 3000,
+          "sedan": 3000,
+          "wagon": 3000,
+          "coupe": 3000,
+          "sport": 3000,
+          "crossover": 3000,
+          "suv": 4000,
+          "offroad": 4000,
+          "minivan": 3000,
+          "pickup": 4000
+        },
+        "base_price": 3000
+      },
+      {
+        "zone": "glass",
+        "group": "Атермальная плёнка",
         "name": "Атермальная плёнка на лобовое",
-        "description": "Меньше нагрев салона летом. Передние стёкла от 4 000",
+        "description": "Меньше нагрев салона летом",
         "duration_min": 120,
         "effect": null,
         "base_price": 6000
       },
       {
         "zone": "glass",
+        "group": "Атермальная плёнка",
+        "name": "Атермальная плёнка на передние стёкла",
+        "description": "Меньше нагрев салона летом",
+        "duration_min": 90,
+        "effect": null,
+        "base_price": 4000
+      },
+      {
+        "zone": "glass",
+        "group": "Растонировка",
+        "name": "Растонировка лобового стекла",
+        "description": "",
+        "duration_min": 40,
+        "effect": null,
+        "base_price": 1500
+      },
+      {
+        "zone": "glass",
+        "group": "Растонировка",
+        "name": "Растонировка двух передних стёкол",
+        "description": "",
+        "duration_min": 30,
+        "effect": null,
+        "base_price": 1000
+      },
+      {
+        "zone": "glass",
+        "group": "Растонировка",
+        "name": "Растонировка двух задних стёкол",
+        "description": "",
+        "duration_min": 30,
+        "effect": null,
+        "base_price": 1000
+      },
+      {
+        "zone": "glass",
+        "group": "Растонировка",
+        "name": "Растонировка заднего стекла",
+        "description": "",
+        "duration_min": 60,
+        "effect": null,
+        "base_price": 2500
+      },
+      {
+        "zone": "glass",
+        "group": "Ремонт и защита",
+        "name": "Ремонт сколов стекла",
+        "description": "От 700 до 3 500 ₽",
+        "duration_min": 40,
+        "effect": "glass-clear",
+        "base_price": 700
+      },
+      {
+        "zone": "glass",
+        "group": "Ремонт и защита",
+        "name": "Ремонт трещин стекла",
+        "description": "От 700 ₽, заполнение полимером 100 ₽ за см",
+        "duration_min": 60,
+        "effect": "glass-clear",
+        "base_price": 700
+      },
+      {
+        "zone": "glass",
+        "group": "Ремонт и защита",
         "name": "Антидождь AQUAPEL",
         "description": "Защитное покрытие стёкол",
         "duration_min": 30,
@@ -622,294 +899,683 @@
         "base_price": 2000
       },
       {
-        "zone": "glass",
-        "name": "Ремонт сколов и трещин стекла",
-        "description": "Скол от 700 до 3 500, трещина 100 ₽ за см",
-        "duration_min": 40,
-        "effect": "glass-clear",
-        "base_price": 700
-      },
-      {
-        "zone": "glass",
-        "name": "Растонировка",
-        "description": "Снимаем старую плёнку, цена за два стекла",
-        "duration_min": 40,
-        "effect": null,
-        "base_price": 1000
-      },
-      {
         "zone": "wheels",
-        "name": "Химчистка дисков",
-        "description": "Четыре диска без снятия",
+        "group": "Уход за дисками",
+        "name": "Химчистка дисков без снятия",
+        "description": "Четыре диска",
         "duration_min": 60,
         "effect": "rims-clean",
-        "base_price": 2500,
         "class_prices": {
           "compact": 2500,
           "hatchback": 2500,
           "sedan": 2500,
           "wagon": 2500,
           "coupe": 3500,
+          "sport": 4500,
           "crossover": 3500,
-          "minivan": 3500,
-          "pickup": 3500,
           "suv": 4500,
           "offroad": 4500,
-          "sport": 4500
-        }
+          "minivan": 3500,
+          "pickup": 3500
+        },
+        "base_price": 2500
       },
       {
         "zone": "wheels",
+        "group": "Уход за дисками",
         "name": "Керамика дисков GYEON",
         "description": "Тормозная пыль не прикипает",
         "duration_min": 120,
         "effect": "rims-clean",
-        "base_price": 5000,
         "class_prices": {
           "compact": 5000,
           "hatchback": 5000,
           "sedan": 5000,
           "wagon": 5000,
           "coupe": 6000,
+          "sport": 6000,
           "crossover": 6000,
-          "minivan": 6000,
-          "pickup": 6000,
           "suv": 6000,
           "offroad": 6000,
-          "sport": 6000
-        }
+          "minivan": 6000,
+          "pickup": 6000
+        },
+        "base_price": 5000
       },
       {
         "zone": "wheels",
-        "name": "Покраска дисков",
-        "description": "Комплект 4 шт: R16 22 000, R17 23 000, R18 27 000, R19 29 000, R20–21 30 000",
+        "group": "Покраска дисков, комплект 4 шт",
+        "name": "Покраска дисков R16",
+        "description": "",
         "duration_min": 2880,
         "effect": "rims-clean",
         "base_price": 22000
       },
       {
+        "zone": "wheels",
+        "group": "Покраска дисков, комплект 4 шт",
+        "name": "Покраска дисков R17",
+        "description": "",
+        "duration_min": 2880,
+        "effect": "rims-clean",
+        "base_price": 23000
+      },
+      {
+        "zone": "wheels",
+        "group": "Покраска дисков, комплект 4 шт",
+        "name": "Покраска дисков R18",
+        "description": "",
+        "duration_min": 2880,
+        "effect": "rims-clean",
+        "base_price": 27000
+      },
+      {
+        "zone": "wheels",
+        "group": "Покраска дисков, комплект 4 шт",
+        "name": "Покраска дисков R19",
+        "description": "",
+        "duration_min": 2880,
+        "effect": "rims-clean",
+        "base_price": 29000
+      },
+      {
+        "zone": "wheels",
+        "group": "Покраска дисков, комплект 4 шт",
+        "name": "Покраска дисков R20–R21",
+        "description": "",
+        "duration_min": 2880,
+        "effect": "rims-clean",
+        "base_price": 30000
+      },
+      {
         "zone": "interior",
+        "group": "Уборка",
         "name": "Детейлинг-уборка салона",
-        "description": "Пылесос, пластик, стёкла изнутри",
+        "description": "",
         "duration_min": 60,
         "effect": "interior-clean",
-        "base_price": 1500,
         "class_prices": {
           "compact": 1500,
           "hatchback": 1500,
           "sedan": 1500,
           "wagon": 1500,
           "coupe": 2000,
+          "sport": 2500,
           "crossover": 2500,
-          "minivan": 2500,
-          "pickup": 2500,
           "suv": 2500,
           "offroad": 2500,
-          "sport": 2500
-        }
+          "minivan": 2500,
+          "pickup": 2500
+        },
+        "base_price": 1500
       },
       {
         "zone": "interior",
+        "group": "Уборка",
+        "name": "Детейлинг-уборка багажника",
+        "description": "",
+        "duration_min": 30,
+        "effect": "interior-clean",
+        "class_prices": {
+          "compact": 500,
+          "hatchback": 500,
+          "sedan": 500,
+          "wagon": 500,
+          "coupe": 500,
+          "sport": 1000,
+          "crossover": 1000,
+          "suv": 1000,
+          "offroad": 1000,
+          "minivan": 1000,
+          "pickup": 1000
+        },
+        "base_price": 500
+      },
+      {
+        "zone": "interior",
+        "group": "Химчистка салона",
         "name": "Полная химчистка салона",
-        "description": "С разбором: сиденья, потолок, пол, карты дверей, багажник",
+        "description": "С разбором",
         "duration_min": 480,
         "effect": "interior-clean",
-        "base_price": 15000,
         "class_prices": {
           "compact": 15000,
           "hatchback": 15000,
           "sedan": 15000,
           "wagon": 15000,
           "coupe": 17000,
+          "sport": 22000,
           "crossover": 20000,
-          "minivan": 20000,
-          "pickup": 20000,
           "suv": 22000,
           "offroad": 22000,
-          "sport": 22000
-        }
+          "minivan": 20000,
+          "pickup": 20000
+        },
+        "base_price": 15000
       },
       {
         "zone": "interior",
+        "group": "Химчистка салона",
         "name": "Химчистка всех сидений",
-        "description": "Ткань или кожа",
+        "description": "",
         "duration_min": 240,
         "effect": "interior-clean",
-        "base_price": 8500,
         "class_prices": {
           "compact": 7500,
           "hatchback": 8500,
           "sedan": 8500,
           "wagon": 8500,
           "coupe": 9500,
+          "sport": 12000,
           "crossover": 10000,
-          "minivan": 10000,
-          "pickup": 10000,
           "suv": 12000,
           "offroad": 12000,
-          "sport": 12000
-        }
+          "minivan": 10000,
+          "pickup": 10000
+        },
+        "base_price": 8500
       },
       {
         "zone": "interior",
+        "group": "Химчистка салона",
         "name": "Химчистка потолка",
-        "description": "Без разводов и запаха",
+        "description": "",
         "duration_min": 120,
         "effect": "interior-clean",
-        "base_price": 2500,
         "class_prices": {
           "compact": 2000,
           "hatchback": 2500,
           "sedan": 2500,
           "wagon": 2500,
           "coupe": 3000,
+          "sport": 4000,
           "crossover": 3200,
-          "minivan": 3200,
-          "pickup": 3200,
           "suv": 4000,
           "offroad": 4000,
-          "sport": 4000
-        }
+          "minivan": 3200,
+          "pickup": 3200
+        },
+        "base_price": 2500
       },
       {
         "zone": "interior",
+        "group": "Химчистка салона",
         "name": "Химчистка пола",
-        "description": "Ковролин и пороги",
+        "description": "",
         "duration_min": 150,
         "effect": "interior-clean",
-        "base_price": 3500,
         "class_prices": {
           "compact": 3000,
           "hatchback": 3500,
           "sedan": 3500,
           "wagon": 3500,
           "coupe": 4500,
+          "sport": 7000,
           "crossover": 5000,
-          "minivan": 5000,
-          "pickup": 5000,
           "suv": 7000,
           "offroad": 7000,
-          "sport": 7000
-        }
+          "minivan": 5000,
+          "pickup": 5000
+        },
+        "base_price": 3500
       },
       {
         "zone": "interior",
-        "name": "Химчистка багажника",
-        "description": "Ковролин и обшивка багажного отсека",
+        "group": "Химчистка салона",
+        "name": "Химчистка багажного отсека",
+        "description": "",
         "duration_min": 60,
         "effect": "interior-clean",
-        "base_price": 1500,
         "class_prices": {
           "compact": 1000,
           "hatchback": 1500,
           "sedan": 1500,
           "wagon": 1500,
           "coupe": 2000,
+          "sport": 2800,
           "crossover": 2300,
-          "minivan": 2300,
-          "pickup": 2300,
           "suv": 2800,
           "offroad": 2800,
-          "sport": 2800
-        }
+          "minivan": 2300,
+          "pickup": 2300
+        },
+        "base_price": 1500
       },
       {
         "zone": "interior",
-        "name": "Удаление запахов озоном",
+        "group": "Химчистка салона",
+        "name": "Снятие ковролина с разбором",
+        "description": "",
+        "duration_min": 480,
+        "effect": "interior-clean",
+        "class_prices": {
+          "compact": 15000,
+          "hatchback": 16000,
+          "sedan": 16000,
+          "wagon": 16000,
+          "coupe": 17000,
+          "sport": 19000,
+          "crossover": 18000,
+          "suv": 19000,
+          "offroad": 19000,
+          "minivan": 18000,
+          "pickup": 18000
+        },
+        "base_price": 16000
+      },
+      {
+        "zone": "interior",
+        "group": "Химчистка салона",
+        "name": "Удаление запахов озоногенератором",
         "description": "Табак, животные, сырость",
         "duration_min": 60,
         "effect": null,
-        "base_price": 4000,
         "class_prices": {
           "compact": 3500,
           "hatchback": 4000,
           "sedan": 4000,
           "wagon": 4000,
           "coupe": 5000,
+          "sport": 6000,
           "crossover": 5500,
-          "minivan": 5500,
-          "pickup": 5500,
           "suv": 6000,
           "offroad": 6000,
-          "sport": 6000
-        }
+          "minivan": 5500,
+          "pickup": 5500
+        },
+        "base_price": 4000
       },
       {
         "zone": "interior",
-        "name": "Обработка кожи кондиционером",
-        "description": "Четыре сиденья",
+        "group": "Химчистка отдельных деталей",
+        "name": "Химчистка одного сиденья",
+        "description": "",
+        "duration_min": 60,
+        "effect": "interior-clean",
+        "class_prices": {
+          "compact": 1900,
+          "hatchback": 2200,
+          "sedan": 2200,
+          "wagon": 2200,
+          "coupe": 2500,
+          "sport": 3200,
+          "crossover": 2700,
+          "suv": 3200,
+          "offroad": 3200,
+          "minivan": 2700,
+          "pickup": 2700
+        },
+        "base_price": 2200
+      },
+      {
+        "zone": "interior",
+        "group": "Химчистка отдельных деталей",
+        "name": "Химчистка одной дверной карты",
+        "description": "",
+        "duration_min": 40,
+        "effect": "interior-clean",
+        "class_prices": {
+          "compact": 1000,
+          "hatchback": 1200,
+          "sedan": 1200,
+          "wagon": 1200,
+          "coupe": 1500,
+          "sport": 3000,
+          "crossover": 2000,
+          "suv": 3000,
+          "offroad": 3000,
+          "minivan": 2000,
+          "pickup": 2000
+        },
+        "base_price": 1200
+      },
+      {
+        "zone": "interior",
+        "group": "Химчистка отдельных деталей",
+        "name": "Химчистка обивки стойки",
+        "description": "",
+        "duration_min": 30,
+        "effect": "interior-clean",
+        "class_prices": {
+          "compact": 1000,
+          "hatchback": 1200,
+          "sedan": 1200,
+          "wagon": 1200,
+          "coupe": 1400,
+          "sport": 1900,
+          "crossover": 1700,
+          "suv": 1900,
+          "offroad": 1900,
+          "minivan": 1700,
+          "pickup": 1700
+        },
+        "base_price": 1200
+      },
+      {
+        "zone": "interior",
+        "group": "Химчистка отдельных деталей",
+        "name": "Химчистка ремня безопасности",
+        "description": "",
+        "duration_min": 30,
+        "effect": "interior-clean",
+        "class_prices": {
+          "compact": 900,
+          "hatchback": 1000,
+          "sedan": 1000,
+          "wagon": 1000,
+          "coupe": 1100,
+          "sport": 1300,
+          "crossover": 1200,
+          "suv": 1300,
+          "offroad": 1300,
+          "minivan": 1200,
+          "pickup": 1200
+        },
+        "base_price": 1000
+      },
+      {
+        "zone": "interior",
+        "group": "Химчистка отдельных деталей",
+        "name": "Химчистка педального узла",
+        "description": "",
+        "duration_min": 30,
+        "effect": "interior-clean",
+        "class_prices": {
+          "compact": 1200,
+          "hatchback": 1300,
+          "sedan": 1300,
+          "wagon": 1300,
+          "coupe": 1350,
+          "sport": 1500,
+          "crossover": 1400,
+          "suv": 1500,
+          "offroad": 1500,
+          "minivan": 1400,
+          "pickup": 1400
+        },
+        "base_price": 1300
+      },
+      {
+        "zone": "interior",
+        "group": "Химчистка отдельных деталей",
+        "name": "Химчистка одного коврика",
+        "description": "",
+        "duration_min": 20,
+        "effect": "interior-clean",
+        "class_prices": {
+          "compact": 700,
+          "hatchback": 800,
+          "sedan": 800,
+          "wagon": 800,
+          "coupe": 900,
+          "sport": 1100,
+          "crossover": 1000,
+          "suv": 1100,
+          "offroad": 1100,
+          "minivan": 1000,
+          "pickup": 1000
+        },
+        "base_price": 800
+      },
+      {
+        "zone": "interior",
+        "group": "Кожа и пластик",
+        "name": "Обработка кожи кондиционером, 4 сиденья",
+        "description": "",
         "duration_min": 60,
         "effect": "interior-clean",
         "base_price": 3000
       },
       {
         "zone": "interior",
-        "name": "Обработка пластика GYEON",
-        "description": "Защита и матовый вид панелей",
+        "group": "Кожа и пластик",
+        "name": "Обработка кожи кондиционером, 2 сиденья",
+        "description": "",
+        "duration_min": 30,
+        "effect": "interior-clean",
+        "base_price": 1500
+      },
+      {
+        "zone": "interior",
+        "group": "Кожа и пластик",
+        "name": "Очистка кожи с обработкой кондиционером",
+        "description": "Цена за одно сиденье",
+        "duration_min": 45,
+        "effect": "interior-clean",
+        "base_price": 2500
+      },
+      {
+        "zone": "interior",
+        "group": "Кожа и пластик",
+        "name": "Керамика кожи GYEON",
+        "description": "Глубокая обработка, цена за одно сиденье",
+        "duration_min": 60,
+        "effect": "interior-clean",
+        "class_prices": {
+          "compact": 4000,
+          "hatchback": 4000,
+          "sedan": 4000,
+          "wagon": 4000,
+          "coupe": 4500,
+          "sport": 5000,
+          "crossover": 5000,
+          "suv": 5000,
+          "offroad": 5000,
+          "minivan": 5000,
+          "pickup": 5000
+        },
+        "base_price": 4000
+      },
+      {
+        "zone": "interior",
+        "group": "Кожа и пластик",
+        "name": "Обработка пластиковых панелей GYEON",
+        "description": "",
         "duration_min": 90,
         "effect": "interior-clean",
-        "base_price": 2000,
         "class_prices": {
           "compact": 2000,
           "hatchback": 2000,
           "sedan": 2000,
           "wagon": 2000,
           "coupe": 2500,
+          "sport": 2500,
           "crossover": 2500,
-          "minivan": 2500,
-          "pickup": 2500,
           "suv": 2500,
           "offroad": 2500,
-          "sport": 2500
-        }
+          "minivan": 2500,
+          "pickup": 2500
+        },
+        "base_price": 2000
       },
       {
         "zone": "interior",
-        "name": "Шумоизоляция дверей",
-        "description": "Четыре двери",
-        "duration_min": 480,
+        "group": "Кожа и пластик",
+        "name": "Восстановительная полировка элемента салона",
+        "description": "Цена за один элемент",
+        "duration_min": 90,
+        "effect": "interior-clean",
+        "base_price": 4000
+      },
+      {
+        "zone": "interior",
+        "group": "Кожа и пластик",
+        "name": "Удаление следов клея с кожаных элементов",
+        "description": "",
+        "duration_min": 120,
+        "effect": "interior-clean",
+        "base_price": 5000
+      },
+      {
+        "zone": "interior",
+        "group": "Шумоизоляция и оборудование",
+        "name": "Шумоизоляция двери",
+        "description": "Цена за одну дверь",
+        "duration_min": 180,
         "effect": null,
-        "base_price": 24000
+        "base_price": 6000
       },
       {
         "zone": "interior",
+        "group": "Шумоизоляция и оборудование",
         "name": "Шумоизоляция пола или потолка",
-        "description": "Тише в салоне на ходу",
+        "description": "",
         "duration_min": 720,
         "effect": null,
         "base_price": 15000
       },
       {
         "zone": "interior",
-        "name": "Установка сигнализации и доп. оборудования",
-        "description": "Охрана, автозапуск, доп. оборудование",
+        "group": "Шумоизоляция и оборудование",
+        "name": "Установка доп. оборудования и сигнализации",
+        "description": "",
         "duration_min": 240,
         "effect": null,
         "base_price": 10000
       },
       {
         "zone": "interior",
+        "group": "Перетяжка и перешив",
         "name": "Перетяжка руля в натуральную кожу",
-        "description": "Экокожа от 8 500",
+        "description": "",
         "duration_min": 480,
         "effect": null,
         "base_price": 17000
       },
       {
         "zone": "interior",
+        "group": "Перетяжка и перешив",
+        "name": "Перетяжка руля в искусственную кожу",
+        "description": "",
+        "duration_min": 360,
+        "effect": null,
+        "base_price": 8500
+      },
+      {
+        "zone": "interior",
+        "group": "Перетяжка и перешив",
+        "name": "Перешив одного элемента",
+        "description": "",
+        "duration_min": 360,
+        "effect": null,
+        "base_price": 8000
+      },
+      {
+        "zone": "interior",
+        "group": "Перетяжка и перешив",
+        "name": "Перешив одного сиденья",
+        "description": "",
+        "duration_min": 1440,
+        "effect": null,
+        "base_price": 26000
+      },
+      {
+        "zone": "interior",
+        "group": "Перетяжка и перешив",
+        "name": "Перетяжка дверной карты (подлокотника) в искусственную кожу",
+        "description": "",
+        "duration_min": 480,
+        "effect": null,
+        "base_price": 10000
+      },
+      {
+        "zone": "interior",
+        "group": "Перетяжка и перешив",
+        "name": "Перешив потолка в ткань",
+        "description": "",
+        "duration_min": 1440,
+        "effect": null,
+        "base_price": 30000
+      },
+      {
+        "zone": "interior",
+        "group": "Перетяжка и перешив",
         "name": "Перешив потолка в алькантару",
-        "description": "В ткань от 30 000",
+        "description": "",
         "duration_min": 2880,
         "effect": null,
         "base_price": 50000
       },
       {
         "zone": "interior",
-        "name": "Полный перешив салона в экокожу",
+        "group": "Перетяжка и перешив",
+        "name": "Полный перешив салона в искусственную кожу",
         "description": "Сиденья и дверные карты",
         "duration_min": 7200,
         "effect": null,
         "base_price": 120000
+      },
+      {
+        "zone": "interior",
+        "group": "Реставрация и покраска",
+        "name": "Реставрация и покраска руля",
+        "description": "",
+        "duration_min": 480,
+        "effect": null,
+        "base_price": 10000
+      },
+      {
+        "zone": "interior",
+        "group": "Реставрация и покраска",
+        "name": "Реставрация и покраска элемента салона",
+        "description": "",
+        "duration_min": 360,
+        "effect": null,
+        "base_price": 7000
+      },
+      {
+        "zone": "interior",
+        "group": "Реставрация и покраска",
+        "name": "Реставрация и покраска одного сиденья",
+        "description": "",
+        "duration_min": 1440,
+        "effect": null,
+        "base_price": 26000
+      },
+      {
+        "zone": "interior",
+        "group": "Реставрация и покраска",
+        "name": "Покраска пластика на потолке в цвет потолка",
+        "description": "Весь пластик потолка",
+        "duration_min": 1440,
+        "effect": null,
+        "base_price": 29000
+      },
+      {
+        "zone": "interior",
+        "group": "Реставрация и покраска",
+        "name": "Полная реставрация и покраска салона",
+        "description": "",
+        "duration_min": 7200,
+        "effect": null,
+        "base_price": 100000
+      },
+      {
+        "zone": "interior",
+        "group": "Реставрация и покраска",
+        "name": "Оклейка в 3D-карбон или 3D-дерево",
+        "description": "Текстурная плёнка, цена за элемент",
+        "duration_min": 120,
+        "effect": null,
+        "base_price": 7000
+      },
+      {
+        "zone": "interior",
+        "group": "Коврики на заказ",
+        "name": "Коврики в салон на заказ",
+        "description": "Комплект 4 шт",
+        "duration_min": 2880,
+        "effect": null,
+        "base_price": 10000
+      },
+      {
+        "zone": "interior",
+        "group": "Коврики на заказ",
+        "name": "Коврик в багажник на заказ",
+        "description": "",
+        "duration_min": 2880,
+        "effect": null,
+        "base_price": 10000
       }
     ]
   },
