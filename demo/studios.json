@@ -1755,6 +1755,33 @@
       },
       {
         "zone": "interior",
+        "group": "Комфорт",
+        "name": "Шумоизоляция салона",
+        "description": "",
+        "base_price": 85000,
+        "duration_min": 4320,
+        "effect": null
+      },
+      {
+        "zone": "interior",
+        "group": "Комфорт",
+        "name": "Звёздное небо",
+        "description": "Установка в потолок",
+        "base_price": 80000,
+        "duration_min": 2880,
+        "effect": null
+      },
+      {
+        "zone": "interior",
+        "group": "Комфорт",
+        "name": "Химчистка салона",
+        "description": "",
+        "base_price": 6000,
+        "duration_min": 360,
+        "effect": null
+      },
+      {
+        "zone": "interior",
         "group": "Руль и КПП",
         "name": "Перетяжка руля",
         "description": "Натуральная кожа и алькантара",
@@ -1896,33 +1923,6 @@
         "base_price": 15000,
         "duration_min": 1440,
         "effect": null
-      },
-      {
-        "zone": "interior",
-        "group": "Комфорт",
-        "name": "Шумоизоляция салона",
-        "description": "",
-        "base_price": 85000,
-        "duration_min": 4320,
-        "effect": null
-      },
-      {
-        "zone": "interior",
-        "group": "Комфорт",
-        "name": "Звёздное небо",
-        "description": "Установка в потолок",
-        "base_price": 80000,
-        "duration_min": 2880,
-        "effect": null
-      },
-      {
-        "zone": "interior",
-        "group": "Комфорт",
-        "name": "Химчистка салона",
-        "description": "",
-        "base_price": 6000,
-        "duration_min": 360,
-        "effect": "interior-clean"
       }
     ]
   }
