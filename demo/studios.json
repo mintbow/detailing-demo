@@ -1602,6 +1602,24 @@
     "services": [
       {
         "zone": "body",
+        "group": "Полировка и ремонт",
+        "name": "Полировка и керамика в 2 слоя",
+        "description": "",
+        "base_price": 30000,
+        "duration_min": 1440,
+        "effect": "paint-ceramic"
+      },
+      {
+        "zone": "body",
+        "group": "Полировка и ремонт",
+        "name": "Удаление глубоких царапин и сколов",
+        "description": "",
+        "base_price": 5000,
+        "duration_min": 180,
+        "effect": "paint-polish"
+      },
+      {
+        "zone": "body",
         "group": "Антихром",
         "name": "Антихром значков",
         "description": "Шильдики и надписи",
@@ -1662,24 +1680,6 @@
         "base_price": 280000,
         "duration_min": 7200,
         "effect": "paint-ceramic"
-      },
-      {
-        "zone": "body",
-        "group": "Полировка и ремонт",
-        "name": "Полировка и керамика в 2 слоя",
-        "description": "",
-        "base_price": 30000,
-        "duration_min": 1440,
-        "effect": "paint-ceramic"
-      },
-      {
-        "zone": "body",
-        "group": "Полировка и ремонт",
-        "name": "Удаление глубоких царапин и сколов",
-        "description": "",
-        "base_price": 5000,
-        "duration_min": 180,
-        "effect": "paint-polish"
       },
       {
         "zone": "body",
