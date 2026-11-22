@@ -127,8 +127,7 @@
     "settings": {
       "brand": {
         "accent": "#ff9f0a",
-        "theme": "dark",
-        "bg": "#000000"
+        "theme": "dark"
       },
       "scene": {
         "bg": "#1a1a1d"
@@ -278,8 +277,7 @@
     "settings": {
       "brand": {
         "accent": "#f5c518",
-        "theme": "dark",
-        "bg": "#1c1c1e"
+        "theme": "dark"
       },
       "content": {
         "phone": "+7 963 443-32-21",
