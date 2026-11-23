@@ -1949,5 +1949,16 @@
         "tagline": "Соберите уход за машиной за минуту"
       }
     }
+  },
+  "detailing-house": {
+    "name": "Detailing House",
+    "settings": {
+      "brand": {},
+      "content": {
+        "phone": "+7 993 773-57-71",
+        "address": "Артинская ул., 16/1",
+        "tagline": "Соберите уход за машиной за минуту"
+      }
+    }
   }
 }
